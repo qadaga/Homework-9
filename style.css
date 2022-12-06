@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        background-color: #404EED;
+}
+
+.first {
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin-left: 140px;
+}
+
+.text {
+    height: 400px;
+    margin-top: 15px;
+    width: 350px;
+
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.second {
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin:200px 0 110px 140px;
+}
+
+span {
+    margin-left:150px ;
+}
+
+.info {
+    height: 400px;
+    margin-top: 15px;
+    width: 350px;
+}
+
+@media (max-width: 1350px) {
+    body {
+      background-color: lightblue;
+    }
+     
+    .first {
+        margin:100px 0 0 0;
+    }
+
+
+    img {
+        width: 500px;
+        height: 350px;
+    }
+    
+    .text {
+        max-width: 330px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+    font-size :16px;
+    }
+}
+
+@media (max-width: 1050px) {
+    body {
+      background-color: rgb(97, 100, 71);
+    }
+     
+    .first {
+        flex-direction: column;
+        align-items: center;
+        margin:100px 0 0 0;
+    }
+
+    .second {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 500px;
+        height: 350px;
+    }
+    
+    span {
+        margin-right: 280px;
+    }
+
+    .text {
+        max-width: 330px;
+        margin-left: 60px;
+    }
+
+    .info {
+        height: 250px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+    font-size :16px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    body {
+      background-color: rgb(219, 103, 73);
+    }
+     
+    .first {
+        flex-direction: column;
+        align-items: center;
+        margin:100px 0 0 0;
+    }
+
+    
+
+    .info {
+        max-width: 220px;
+        height: 170px;
+        margin-right: 100px;
+    }
+
+    img {
+        width: 320px;
+        height: 220px;
+    }
+    
+    .text {
+        height: 200px;
+        max-width: 220px;
+        margin-left: 40px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+    font-size :13px;
+    }
+}
